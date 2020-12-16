@@ -1,0 +1,20 @@
+div {
+  .logo-pineapple {
+    width: 3rem;
+  }
+
+  .navbar-menu {
+    background-color: #bc2828;
+    position: absolute;
+    display: flex;
+    width: 75%;
+    height: 100vh;
+    right: -75%;
+    top: 0;
+    align-items: center;
+  }
+
+  .menu-active {
+    right: 0;
+  }
+}
