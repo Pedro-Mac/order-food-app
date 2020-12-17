@@ -1,3 +1,44 @@
+@import "../../styles/master";
+
 header {
   margin-top: 6rem;
+}
+
+main {
+  .background--dark {
+    background-color: #2d2d34;
+    color: #fff;
+  }
+  section {
+    margin-top: 5rem;
+    padding: 0 -1.5rem;
+
+    .home--info-container {
+      margin: 2rem 0;
+      .home--info-icon {
+        background-color: $main-color;
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0.5rem;
+        border-radius: 50%;
+      }
+      .home--info-header {
+        margin: 0.5rem 0;
+      }
+      .home--info {
+        margin-bottom: 0;
+      }
+
+      .button--link-home {
+        color: #fff;
+        width: 20%;
+        background-color: $main-color;
+        text-align: center;
+        border-radius: 0.25rem;
+      }
+    }
+  }
+}
+
+footer {
 }
