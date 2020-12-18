@@ -12,7 +12,7 @@ const app = express();
 
 app.use(serveFavicon(join(__dirname, "public/images", "favicon.ico")));
 app.use(logger("dev"));
-app.use(cors({ origin: [process.env.CLIENT_URL], credentials: true }));
+app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
 
 app.use(express.json());
 

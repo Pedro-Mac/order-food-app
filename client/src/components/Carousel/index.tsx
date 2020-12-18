@@ -19,7 +19,10 @@ const Carousel = () => {
         setX(0);
       }
     };
-    setTimeout(slideLeftAuto, 5000);
+    const timer = setTimeout(slideLeftAuto, 5000);
+    return () => {
+      clearTimeout(timer);
+    };
   }, [x, sliderItems]);
 
   return (
