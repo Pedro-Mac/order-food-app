@@ -15,13 +15,14 @@ const Menu = () => {
       <div>
         <h1>Menu</h1>
         <section>
-          {menuDishes.map((dish: dishType, index: number) => {
+          {menuDishes.map((dish: dishType) => {
             return (
               <Dish
-                key={index}
+                key={dish._id}
                 name={dish.name}
                 ingredients={dish.ingredients}
                 price={dish.price}
+                id={dish._id}
               />
             );
           })}
