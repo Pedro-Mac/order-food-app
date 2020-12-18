@@ -1,0 +1,11 @@
+.carousel {
+  display: flex;
+  width: 75%;
+  align-items: center;
+  overflow: hidden;
+
+  .carousel--item {
+    min-width: 100%;
+    transition: 0.5s;
+  }
+}
