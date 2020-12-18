@@ -66,7 +66,7 @@ const Home: React.FC = () => {
         <ButtonLink
           to="/menu"
           text="Order online"
-          className="d-block button--footer-highlight"
+          className=" button--footer-highlight d-block py-2"
         />
       </footer>
     </>
